@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial Bold', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 234, 251);
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+    text-align: center !important;
+    padding: 20px 0;
+    background-color: rgb(249, 193, 237) !important;
+    box-shadow: 0 4px 8px rgb(137, 137, 137);
+    position: relative;
+ }
+ 
+ header h1 {
+     color: rgb(201, 81, 165);
+     margin-top: 2px;
+     padding: 20px;
+     background-color: rgb(246, 232, 248);
+     box-shadow: 0 4px 8px rgb(116, 51, 101);
+     position: relative;
+ }
+ 
+ header h4 {
+     color: rgb(255, 255, 255);
+     margin-top: 30px;
+ }
+ 
+ header p {
+     color: rgb(106, 58, 103);
+     margin-top: 10px;
+     font-size: x-small;
+     margin-bottom: 10px;
+ }
+
+ main {
+    padding: 140px 300px;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 4px 8px rgb(132, 91, 120);
+    position: relative;
+    border: none;
+    border-radius: 15px;
+ }
+
+ label {
+    display: block;
+    margin-bottom: 10px;
+ }
+
+ body h1 {
+    text-align: center;
+ }
+
+ .container {
+    text-align: center;
+ }
+ form {
+    padding: 30px
+ }
+
+ .calc-form {
+    padding: 30px;
+ }
+ 
+ main-picture {
+    width: 50%;
+    align-self: center;
+ }
+
+ div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #AreaInput {
+     display: flexbox; 
+     flex-direction: column;
+     margin: 10px;
+     outline: none;
+     border-radius: 10px;
+     border: solid rgb(180, 107, 172);
+     padding: 10px;
+ }
+
+ #PerimeterInput {
+     display: flexbox; 
+     flex-direction: column;
+     margin: 10px;
+     outline: none;
+     border-radius: 10px;
+     border: solid rgb(180, 107, 172);
+     padding: 10px;
+}
+
+ #AreaInput:focus {
+     border:solid rgb(180, 143, 181);
+ }
+ 
+ button {
+     background-color: rgb(158, 81, 131);
+     color: aliceblue;
+     transition: 0.4s;
+     border: none;
+     border-radius: 10px;
+     padding: 10px 20px;
+     cursor: pointer;
+     flex-grow: 2;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ 
+ button:hover {
+     background-color: rgb(208, 128, 182);
+     transition: 0.4s;
+ }
+ button:disabled {
+     background-color: rgb(151, 0, 0);
+ }
+ 
+ button:active {
+     background-color: rgb(223, 180, 203);
+     transform: translateY(4px)
+ }
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Matematika</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Matematika</h1>
+        <h4>Welcome to Kalkulator Luas dan Keliling Persegi!</h4>
+        <p>Sebuah Web apps sederhana yang digunakan untuk menghitung Luas dan keliling bangun datar Persegi</p>
+    </header>
+    <h1> Persegi</h1>
+
+    <main>
+        <div class="main-picture">
+            <img src="Persegi.jpg" alt="luas persegi" width="400px">
+        </div>
+        <div class="container">
+            <div class="container calc-container">
+                <div class="main-border">
+                    <div class="main-calc">
+                        <div class="main-box">
+                            <label for="AreaInput">Hitung Luas Persegi</label>
+                        <form id="calc-formArea">
+                            <input type="number" id="AreaInput" required />
+                            <button type="submit">Hitung</button>
+                            <button type="reset" id="calc-resetArea">Reset</button>
+                        </form>
+                        <div id="calc-resultArea"></div>
+                    </div>
+                    <div class="main-box">
+                        <label for="PerimeterInput">Hitung Keliling Persegi</label>
+                        <form id="calc-formPerimeter">
+                            <input type="number" id="PerimeterInput" required />
+                            <button type="submit">Hitung</button>
+                            <button type="reset" id="calc-resetPerimeter">Reset</button>
+                        </form>
+                        <div id="calc-resultPerimeter"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer>
+    <h6>© 2024 Olivia Feroka Putri. All Rights Reserved.</h6>
+</footer>
+<script rel="javascript" src="js/index.js"></script>
+</body>
+
+</html>
